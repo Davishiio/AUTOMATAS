@@ -162,9 +162,9 @@ class MaquinaAFD:
 if __name__ == "__main__":
     def leerArchivo():
         """
-        Lee las quíntuplas de un autómata desde un archivo 'automata.txt' y procesa la información.
+        Lee las quíntuplas de un autómata desde un archivo 'automata.csv' y procesa la información.
         """
-        archivo = open("automata.txt")
+        archivo = open("automata.csv")
         lista_sin_formato = archivo.readlines()
         archivo.close()
 

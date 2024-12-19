@@ -1,0 +1,11 @@
+    0,1
++A,C,B
+B,C,D
+C,E,J
+D,F,G
+*E,E,E
+F,H,H
+*G,I,G
+*H,H,H
+*I,H,H
+J,J,J   

@@ -1,23 +1,22 @@
 Reglas:
 
-automata.txt es el automata que recibe las reglas
+automata.csv es el automata que recibe las reglas
 
- estados/alfabeto   	 0,	1 
-  +q0,			q0,	q1
-   q1,			q1,	q2
-   q2,			q2,	q3
-  *q3,			q3,	q0
+ estados/alfabeto   	 0 	1 
+	+A 		 C 	B
+	B		 C	D
+	C		 E	J
+	D		 F	G
+	*E		 E	E
+	F		 H	H
+	*G		 I	G
+	*H		 H	H
+	*I		 H	H
+	J		 J	J   
 
 
 +: indica el estado inicial
-*: indica el estado final
+*: indica el/los estados finales
 
-la cadena aceptada es 3 unos consecutivos
-111
-o 3 unos intercalados con 0s
-10101
 
-todo lo demás es rechazado
-110
-
-Cambiando el automata.txt y las reglas el flujo del programa cambia.
+Cambiando el automata.csv y las reglas el flujo del programa cambia.

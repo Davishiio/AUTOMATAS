@@ -1,0 +1,38 @@
+mostrar "¿Cuál es tu nombre?";
+nombre = pregunta;
+mostrar "Hola, " + nombre + "!";
+
+mostrar "Dime un número:";
+numero = pregunta;
+mostrar "El número que ingresaste es: " + numero;
+
+contador = 1;
+mientras contador <= 5 hacer {
+    mostrar contador;
+    contador = contador + 1;
+}
+
+mostrar "¿Cuántas veces quieres que salude?";
+a = 5;
+repetir a veces {
+    mostrar "¡Hola!";
+}
+
+edad = 5;
+
+si edad >= 18 entonces {
+    mostrar "Eres mayor de edad.";
+} 
+si edad < 18 entonces {
+    mostrar "Eres menor de edad.";
+}
+
+función sumar(a, b) {
+    retornar a + b;
+}
+
+num1 = 9;
+num2 = 10;
+
+resultado = sumar(num1, num2);
+mostrar resultado;
